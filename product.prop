@@ -22,6 +22,9 @@ bluetooth.profile.sap.server.enabled=true
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
+# Filesystem - Fix: /sys/fs/f2fs/features/linear_lookup not found issues
+persist.fsck.disable_linear_lookup=on
+
 # RKP
 remote_provisioning.hostname=remoteprovisioning.googleapis.com
 remote_provisioning.tee.rkp_only?=1
