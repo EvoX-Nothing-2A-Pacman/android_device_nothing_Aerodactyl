@@ -24,3 +24,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=Pacman \
     SystemDevice=Pacman \
     SystemName=Pacman
+
+# EvolutionX specific props
+WITH_GMS := true
+TARGET_INCLUDE_BCR := false
+TARGET_HAS_UDFPS := true
+TARGET_ENABLE_BLUR := true
