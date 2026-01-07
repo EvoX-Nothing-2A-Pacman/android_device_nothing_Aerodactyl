@@ -30,3 +30,6 @@ WITH_GMS := true
 TARGET_INCLUDE_BCR := false
 TARGET_HAS_UDFPS := true
 TARGET_ENABLE_BLUR := true
+
+# Include the keys makefile for signing the build.
+-include vendor/lineage-priv/keys/keys.mk
