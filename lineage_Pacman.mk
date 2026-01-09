@@ -31,5 +31,8 @@ TARGET_INCLUDE_BCR := false
 TARGET_HAS_UDFPS := true
 TARGET_ENABLE_BLUR := true
 
+# Enable animation override to fix lag on fewer mediatek devices
+PERF_ANIM_OVERRIDE := true
+
 # Include the keys makefile for signing the build.
 -include vendor/lineage-priv/keys/keys.mk
